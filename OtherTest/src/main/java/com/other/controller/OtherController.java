@@ -18,4 +18,9 @@ public class OtherController {
 		return "other2.html";
 	}
 
+	@RequestMapping("/other.do")
+	public String other3() throws Exception {
+		return "other3.html";
+	}
+
 }
