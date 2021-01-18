@@ -9,8 +9,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class OtherController {
 
 	@GetMapping("/other.do")
-	public String home() throws Exception {
+	public String other() throws Exception {
 		return "other.html";
+	}
+
+	@PostMapping("/other.do")
+	public String other2() throws Exception {
+		return "other2.html";
 	}
 
 }
